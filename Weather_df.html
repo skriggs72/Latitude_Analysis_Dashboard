@@ -11,7 +11,7 @@
     </style>
 
     <meta charset="UTF-8">
-    <title>data</title>
+    <title>Weather_df</title>
 
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   -->
@@ -34,6 +34,7 @@
                 
                <div class="col-md-2">     
                     <!-- <div class="btn-group" role="group" aria-label="Basic example"> -->
+                      <div class="row justify-content-right">
                         <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
                             <button onclick="window.location.href='Comparison.html';" type="button" class="btn btn-primary">Comparison</button>
                             <button onclick="window.location.href='Weather_df.html';" type="button" class="btn btn-primary">Data</button><a href="Weather_df.html"></a>
@@ -50,19 +51,28 @@
                               </ul>
                             </div>
                           </div>
+                         </div>
 <!-- </div> -->
      </div>
 <br>
 
-<main class="container_data" style="position:relative">
-   <h2 style="color:rgb(122, 3, 190);position:absolute;top:30px;left:20px">Data</h2>
+<div class="container-fluid" style="position:relative">
+  <div class="row justify-content-center" >
+        <div class="md-col-6 ">
+   <h2 style="color:purple;position:relative;top:30px;left:20px">Data</h2>
    <br>
+  </div>
+</div>
+<div class= "row justify-content-center">
+  <div class="md-col-6">
    <br><br>
    <p>The following table includes all of the data used for plotting in this project:</p>
    <br><br>
-
-  
-   <table class="table table-bordered table-hover table-condensed">
+  </div>
+  </div>
+  <div class="row ">
+  <div class-"md-col-6">
+   <table class="table table-bordered table-hover table-condensed text-center">
     <thead><tr><th title="Field #1">City_ID</th>
     <th title="Field #2">City</th>
     <th title="Field #3">Cloudiness</th>
@@ -6640,8 +6650,9 @@
     </tr>
     </tbody>
 </table>
-    
-</main>
+</div>
+</div>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

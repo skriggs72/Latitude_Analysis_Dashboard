@@ -11,44 +11,46 @@
     </style>
 
     <meta charset="UTF-8">
-    <title>cloudiness</title>
+    <title>Cloudiness</title>
 
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  -->
-  
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
      <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-      <div id="first_line_color">
-        <div class="row">   
-                <!-- <div class="form-inline">   -->
-                <div class="col-md-6">    
+  <div id="first_line_color">
+    <div class="row">   
+            <!-- <div class="form-inline">   -->
+            <div class="col-md-6">    
 
-                        <div class="first_line" >
-                            <div class="div1"><a href= "index.html"><h1>Latitude</h1></a></div>
-                        </div>    
-                </div>  
-                
-                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                    <button onclick="window.location.href='Comparison.html';" type="button" class="btn btn-primary">Comparison</button>
-                    <button onclick="window.location.href='Weather_df.html';" type="button" class="btn btn-primary">Data</button><a href="Weather_df.html"></a>
-                  
-                    <div class="btn-group" role="group">
-                      <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria=haspopup="true" aria-expanded="false">
-                        Plots
-                      </button>
-                      <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                        <li><a class="dropdown-item" href="Temperature.html">Temperature</a></li>
-                        <li><a class="dropdown-item" href="Humidity.html">Humidity</a></li>
-                        <li><a class="dropdown-item" href="Cloudiness.html">Cloudiness</a></li>
-                        <li><a class="dropdown-item" href="Wind-Speed.html">Wind-Speed</a></li>
-                      </ul>
-                    </div>
-                  </div>
-     </div>
+                    <div class="first_line" >
+                        <div class="div1"><a href= "index.html"><h1>Latitude</h1></a></div>
+                    </div>    
+            </div>  
+            
+           <div class="col-md-2">     
+                <!-- <div class="btn-group" role="group" aria-label="Basic example"> -->
+                    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                        <button onclick="window.location.href='Comparison.html';" type="button" class="btn btn-primary">Comparison</button>
+                        <button onclick="window.location.href='Weather_df.html';" type="button" class="btn btn-primary">Data</button><a href="Weather_df.html"></a>
+                      
+                        <div class="btn-group" role="group">
+                          <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria=haspopup="true" aria-expanded="false">
+                            Plots
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <li><a class="dropdown-item" href="Temperature.html">Temperature</a></li>
+                            <li><a class="dropdown-item" href="Humidity.html">Humidity</a></li>
+                            <li><a class="dropdown-item" href="Cloudiness.html">Cloudiness</a></li>
+                            <li><a class="dropdown-item" href="Wind-Speed.html">Wind-Speed</a></li>
+                          </ul>
+                        </div>
+                      </div>
+    </div>
+<!-- </div> -->
+ </div>
+    
 <br>
 
 <header>
@@ -75,7 +77,7 @@
                 <br>
                 <img src="../Visualizations/City_Latitude_vs_Cloudiness.png" alt="City_Latitude_vs_Cloudiness" style="width:100%;height:100%;">
                 <figcaption>
-                        There is no obvious dependence of cloudiness on latitude. Yet somehow there are several cloudiness values, 0, 20, 40, 78,97, are most crowded with cities all over the world, much more than other values.
+                        There is no obvious dependence of cloudiness on latitude. Yet somehow there are several cloudiness values, 0, 20, 40, 78, 97, are most crowded with cities all over the world, much more than other values.
                 </figcaption>  
             </figure>
     
